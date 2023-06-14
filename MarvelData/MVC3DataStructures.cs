@@ -629,7 +629,7 @@ namespace MarvelData
         public int IdReference2;
         public int delayIdReference2;
         public int unk180;
-        public int unk184;
+        public int HitsToIDReference2;
         public int unk188;
     }
 
