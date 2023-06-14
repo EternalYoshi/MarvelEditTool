@@ -38,6 +38,147 @@ namespace MarvelData
                 case 0x2:
                     name = "Walk Backward";
                     break;
+                case 0x3:
+                    name = "Dash Forward";
+                    break;
+                case 0x4:
+                    name = "Dash Backward";
+                    break;
+                case 0x5:
+                    name = "Air Dash Forward";
+                    break;
+                case 0x6:
+                    name = "Air Dash Backward";
+                    break;
+                case 0x9:
+                    name = "Fall";
+                    break;
+                case 0xA:
+                    name = "Crouch Enter";
+                    break;
+                case 0xC:
+                    name = "Jump";
+                    break;
+                case 0xD:
+                    name = "Jump Forward";
+                    break;
+                case 0xE:
+                    name = "Jump Backward";
+                    break;
+                case 0xF:
+                    name = "Midair Jump";
+                    break;
+                case 0x10:
+                    name = "Midair Jump Forward";
+                    break;
+                case 0x11:
+                    name = "Midair Jump Backward";
+                    break;
+
+                case 0x13:
+                    name = "Super Jump";
+                    break;
+                case 0x14:
+                    name = "Super Jump Forward";
+                    break;
+                case 0x15:
+                    name = "Super Jump Backward";
+                    break;
+                case 0x16:
+                    name = "Post Action Fall";
+                    break;
+                case 0x17:
+                    name = "Normal Landing";
+                    break;
+                case 0x18:
+                    name = "Turn";
+                    break;
+                case 0x19:
+                    name = "Crouching Idle";
+                    break;
+                case 0x1A:
+                    name = "Crouching Turn";
+                    break;
+
+                case 0x1E:
+                    name = "Guard Standing";
+                    break;
+                case 0x1F:
+                    name = "Guard Crouching";
+                    break;
+                case 0x20:
+                    name = "Guard Midair";
+                    break;
+                case 0x21:
+                    name = "Pushblock Standing";
+                    break;
+                case 0x22:
+                    name = "Pushblock Crouching";
+                    break;
+                case 0x23:
+                    name = "Pushblock Midair";
+                    break;
+                case 0x24:
+                    name = "Throw Escape - Thrower";
+                    break;
+                case 0x25:
+                    name = "Throw Escape - Breaker";
+                    break;
+                case 0x26:
+                    name = "Air Throw Escape - Thrower";
+                    break;
+                case 0x27:
+                    name = "Air Throw Escape - Breaker";
+                    break;
+                case 0x28:
+                    name = "Guard Standing B";
+                    break;
+                case 0x29:
+                    name = "Guard Crouching B";
+                    break;
+                case 0x2A:
+                    name = "Guard Midair B";
+                    break;
+
+                case 0x32:
+                    name = "Air Recovery";
+                    break;
+                case 0x33:
+                    name = "Air Recovery Forward";
+                    break;
+                case 0x34:
+                    name = "Air Recovery Backward";
+                    break;
+                case 0x35:
+                    name = "Knockdown Recovery";
+                    break;
+                case 0x36:
+                    name = "Knockdown Recovery Forward A";
+                    break;
+                case 0x37:
+                    name = "Knockdown Recovery Forward B";
+                    break;
+                case 0x38:
+                    name = "Knockdown Recovery Backward";
+                    break;
+
+                case 0x72:
+                    name = "Dead Body Vanish";
+                    break;
+
+                case 0x82:
+                    name = "Fight Intro - Point";
+                    break;
+                case 0x83:
+                    name = "Fight Intro - A1";
+                    break;
+                case 0x84:
+                    name = "Fight Intro - A2";
+                    break;
+                case 0x85:
+                    name = "Fight Intro - Tag Out";
+                    break;
+
                 /*
                 case 0x3:
                     return "fwd dash";
@@ -47,6 +188,34 @@ namespace MarvelData
                     return "5L";
                 case 0x168:
                     return "5S";*/
+                case 0x87:
+                    name = "Taunt";
+                    break;
+                case 0x88:
+                    name = "Vanish?";
+                    break;
+                case 0x89:
+                    name = "Victory";
+                    break;
+
+                case 0x8B:
+                    name = "Time Over Loss";
+                    break;
+                case 0xAB:
+                    name = "SnapBack";
+                    break;
+                case 0xAC:
+                    name = "Assist Alpha";
+                    break;
+                case 0xAD:
+                    name = "Assist Beta";
+                    break;
+                case 0xAE:
+                    name = "Assist Gamma";
+                    break;
+                case 0x1B8:
+                    name = "Usually Gallery Bios Pose";
+                    break;
                 default:
                     name = "unknown";
                     break;
